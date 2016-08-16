@@ -1,0 +1,10 @@
+[Unit]
+Description=Manage odroid xu4 fan
+
+[Service]
+Type=simple
+ExecStart=/sbin/fanctl.py
+Restart=on-abort
+
+[Install]
+WantedBy=multi-user.target

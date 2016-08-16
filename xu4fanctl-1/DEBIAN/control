@@ -1,0 +1,12 @@
+Package: xu4fanctl
+architecture: all
+Maintainer: Jérôme Bonet (l33thium@laposte.net)
+Depends: debconf (>=0.5.00), python2.7
+Priority: optional
+Version: 1
+Description: Fan control daemon for Odroid xu3/4 SBC
+	Tis daemon manage the fan in silence.
+	.
+	It start cooling at 90°C and manage speed on a temp average of 300s.
+	Rest of the time, the fan is stopped and SoC run at areound 65°C.
+Homepage: https://github.com/L33thium/xu4fanctl/

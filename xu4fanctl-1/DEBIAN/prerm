@@ -1,0 +1,4 @@
+#!/bin/sh
+echo "Disabling fanctl..."
+systemctl stop fanctl.service
+systemctl disable fanctl.service

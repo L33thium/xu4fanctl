@@ -1,0 +1,4 @@
+#!/bin/sh
+echo "Enabling fanctl..."
+systemctl enable fanctl.service
+systemctl start fanctl.service
